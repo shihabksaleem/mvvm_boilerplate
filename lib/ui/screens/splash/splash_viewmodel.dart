@@ -14,7 +14,7 @@ class SplashViewModel extends BaseViewModel {
       //   //Navigate to login
       // } else {
       //   // Navigate to home
-      navigationService.navigateTo(Routes.loginView);
+      navigationService.navigateTo(Routes.homeView, arguments: HomeViewArguments(username: "shihab"));
       // }
     });
   }
